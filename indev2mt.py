@@ -30,9 +30,9 @@ Indev_Env = Indev_mclevel['Environment']
 Indev_Map = Indev_mclevel['Map'] 
 Indev_About = Indev_mclevel['About'] 
 
-Indev_WorldSizeX = int(Indev_Map['Length'])
+Indev_WorldSizeX = int(Indev_Map['Width'])
 Indev_WorldSizeY = int(Indev_Map['Height'])
-Indev_WorldSizeZ = int(Indev_Map['Width'])
+Indev_WorldSizeZ = int(Indev_Map['Length'])
 Indev_Blocks = numpy.array(Indev_Map['Blocks'])
 Indev_WorldName = Indev_About['Name']
 
